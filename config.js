@@ -5,8 +5,21 @@ const css_pipeline = require('css-pipeline');
 const dynamic_content = require('dynamic-content');
 
 module.exports = ({ env }) => {
+  const root = env === 'production' ? '/blog' : '';
+
   return {
+    env,
+
     ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf', '*.swp', '**/*.swp'],
+
+    locals: {
+      blogPath: (path) => {
+        if (!path) { return root; }
+
+        if (path[0] === '/') { return `${root}${path}`; }
+        return `${root}/${path}`;
+      },
+    },
 
     extensions: [
       css_pipeline(env === 'production' ? {
