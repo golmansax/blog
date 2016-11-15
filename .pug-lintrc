@@ -1,4 +1,8 @@
 {
   "excludeFiles": ["node_modules/**"],
-  "extends": "clock"
+  "extends": "clock",
+
+  "requireLowerCaseTags": null,
+  "requireSpaceAfterCodeOperator": ["=", "!="],
+  "validateExtensions": null
 }
