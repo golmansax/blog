@@ -8,4 +8,4 @@ git config user.email "holman@golmansax.com"
 
 git add .
 git commit -m 'Deploy to Github Pages'
-git push --force-with-lease --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages
