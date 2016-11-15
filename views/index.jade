@@ -2,5 +2,11 @@ extends layout
 
 block content
   h3 Welcome to roots!
+
+  each post in site.posts
+    a.post
+      h2: a(href=post._url)= post.title
+        date= post.date
+
   :marked
     Find tutorials and documentation at http://roots.cx : )
