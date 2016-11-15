@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -e
 
 cd public
 git init
