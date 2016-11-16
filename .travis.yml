@@ -15,7 +15,8 @@ cache:
 before_script:
   - roots compile -e production
 script:
-  - npm run lint
+  - npm run lint-js
+  - npm run lint-pug
 
 after_success:
   - "./scripts/deploy_gh_pages.sh"

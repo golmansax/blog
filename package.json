@@ -2,15 +2,20 @@
   "name": "blog",
   "description": "My blog",
   "scripts": {
-    "lint": "pug-lint .",
+    "lint-js": "eslint .",
+    "lint-pug": "pug-lint .",
     "start": "roots watch"
   },
   "dependencies": {
     "autoprefixer-stylus": "0.9.x",
     "axis": "0.6.x",
+    "babel-eslint": "^7.1.0",
     "coffee-script": "1.x",
     "css-pipeline": "0.3.x",
     "dynamic-content": "^0.3.0",
+    "eslint": "^3.10.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-config-golmansax": "0.0.21",
     "jade": "1.x",
     "jstransformer-marked": "1.x",
     "marked": "0.3.x",
