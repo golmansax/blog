@@ -10,7 +10,9 @@ block content
     each tag in entry.tags
       p Tag: #{tag.fields.title}
 
-  div !{markdown(entry.content)}
+  if entry.content
+    div !{markdown(entry.content)}
+
   a(href=blogPath('/')) &laquo; back to index
 
   p

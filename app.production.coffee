@@ -1,2 +1,2 @@
-config = require './config'
+config = require './lib/config'
 module.exports = config(env: 'production')

@@ -21,4 +21,4 @@ script:
   - npm run lint-pug
 
 after_success:
-  - "./scripts/deploy_gh_pages.sh"
+  - "./lib/scripts/deploy_gh_pages.sh"
