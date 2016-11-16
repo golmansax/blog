@@ -15,7 +15,7 @@ cache:
     - node_modules # NPM packages
 
 before_script:
-  - roots compile -e production
+  - npm run build
 script:
   - npm run lint-js
   - npm run lint-pug

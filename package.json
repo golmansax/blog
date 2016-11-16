@@ -2,6 +2,7 @@
   "name": "blog",
   "description": "My blog",
   "scripts": {
+    "build":  "roots compile -e production",
     "lint-js": "eslint .",
     "lint-pug": "pug-lint .",
     "start": "roots watch"

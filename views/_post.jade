@@ -6,8 +6,9 @@ block title
 block content
   h1= entry.title
 
-  each tag in entry.tags
-    p Tag: #{tag.fields.title}
+  if entry.tags
+    each tag in entry.tags
+      p Tag: #{tag.fields.title}
 
   div !{markdown(entry.content)}
   a(href=blogPath('/')) &laquo; back to index
