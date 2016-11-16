@@ -2,5 +2,5 @@
   "excludeFiles": ["node_modules/**"],
   "extends": "clock",
 
-  "validateExtensions": false
+  "validateExtensions": null
 }
