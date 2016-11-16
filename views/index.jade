@@ -1,12 +1,11 @@
 extends layout
 
+block title
+  = 'Welcome to my blog!'
+
 block content
-  h3 Welcome to roots!
+  h3 Welcome to my (in progress) blog!
 
   each post in site.posts
-    a.post
-      h2: a(href=blogPath(post._url))= post.title
-        date= post.date
-
-  :marked
-    Find tutorials and documentation at http://roots.cx : )
+    h2: a(href=blogPath(post._url))= post.title
+    div= formatDate(post.date)

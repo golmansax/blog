@@ -1,5 +1,16 @@
 extends layout
 
+block title
+  = post.title
+
 block content
+  h1= post.title
+
+  each tag in post.tags
+    p= 'Tag:' + tag
+
   block post_content
-  a(href=blogPath()) &laquo; back to index
+  a(href=blogPath('/')) &laquo; back to index
+
+  p Holman is an entrepreneuer and freelance developer living in New York.
+    He likes to write about things he really likes.

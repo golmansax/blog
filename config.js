@@ -1,8 +1,9 @@
+const moment = require('moment');
 const axis = require('axis');
 const rupture = require('rupture');
 const autoprefixer = require('autoprefixer-stylus');
-const css_pipeline = require('css-pipeline');
-const dynamic_content = require('dynamic-content');
+const cssPipeline = require('css-pipeline');
+const dynamicContent = require('dynamic-content');
 
 module.exports = ({ env }) => {
   const root = env === 'production' ? '/blog' : '';
@@ -10,19 +11,20 @@ module.exports = ({ env }) => {
   return {
     env,
 
-    ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf', '*.swp', '**/*.swp'],
+    ignores: ['readme.md', '**/*layout.*', '**/_*', '.gitignore', 'ship.*conf', '*.swp', '**/*.swp'],
 
     locals: {
       blogPath: (path) => {
-        if (!path) { return root; }
-
         if (path[0] === '/') { return `${root}${path}`; }
         return `${root}/${path}`;
+      },
+      formatDate: (date) => {
+        return moment(date).format('MMM DD YYYY');
       },
     },
 
     extensions: [
-      css_pipeline(env === 'production' ? {
+      cssPipeline(env === 'production' ? {
         files: 'assets/css/*.styl',
         out: 'css/build.css',
         minify: true,
@@ -30,7 +32,7 @@ module.exports = ({ env }) => {
       } : {
         files: 'assets/css/*.styl',
       }),
-      dynamic_content(),
+      dynamicContent(),
     ],
 
     stylus: {
