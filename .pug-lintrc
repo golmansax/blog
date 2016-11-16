@@ -2,7 +2,5 @@
   "excludeFiles": ["node_modules/**"],
   "extends": "clock",
 
-  "requireLowerCaseTags": null,
-  "requireSpaceAfterCodeOperator": ["=", "!="],
-  "validateExtensions": null
+  "validateExtensions": false
 }

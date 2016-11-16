@@ -1,9 +1,11 @@
+require('dotenv').config({ silent: true });
+const marked = require('marked');
 const moment = require('moment');
 const axis = require('axis');
 const rupture = require('rupture');
 const autoprefixer = require('autoprefixer-stylus');
 const cssPipeline = require('css-pipeline');
-const dynamicContent = require('dynamic-content');
+const contentful = require('roots-contentful');
 
 module.exports = ({ env }) => {
   const root = env === 'production' ? '/blog' : '';
@@ -21,6 +23,7 @@ module.exports = ({ env }) => {
       formatDate: (date) => {
         return moment(date).format('MMM DD YYYY');
       },
+      markdown: marked,
     },
 
     extensions: [
@@ -32,7 +35,16 @@ module.exports = ({ env }) => {
       } : {
         files: 'assets/css/*.styl',
       }),
-      dynamicContent(),
+      contentful({
+        access_token: process.env.CONTENTFUL_DELIVERY_API_KEY,
+        space_id: process.env.CONTENTFUL_SPACE_ID,
+        content_types: {
+          posts: {
+            id: 'post',
+            template: 'views/_post.jade',
+          },
+        },
+      }),
     ],
 
     stylus: {

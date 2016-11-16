@@ -12,6 +12,7 @@
     "babel-eslint": "^7.1.0",
     "coffee-script": "1.x",
     "css-pipeline": "0.3.x",
+    "dotenv": "^2.0.0",
     "dynamic-content": "^0.3.0",
     "eslint": "^3.10.2",
     "eslint-config-airbnb": "^13.0.0",
@@ -23,6 +24,7 @@
     "pug-lint": "^2.3.0",
     "pug-lint-config-clock": "^2.0.0",
     "roots": "^5.0.0",
+    "roots-contentful": "0.0.9",
     "rupture": "0.6.x",
     "stylus": "0.54.x"
   }

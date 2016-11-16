@@ -1,0 +1,17 @@
+extends ./layout.jade
+
+block title
+  = entry.title
+
+block content
+  h1= entry.title
+
+  each tag in entry.tags
+    p Tag: #{tag.fields.title}
+
+  div !{markdown(entry.content)}
+  a(href=blogPath('/')) &laquo; back to index
+
+  p
+    | Holman is an entrepreneuer and freelance developer living in New York.
+    | He likes to write about things he really likes.

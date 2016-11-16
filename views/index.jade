@@ -1,4 +1,4 @@
-extends layout
+extends ./layout.jade
 
 block title
   = 'Welcome to my blog!'
@@ -6,6 +6,6 @@ block title
 block content
   h3 Welcome to my (in progress) blog!
 
-  each post in site.posts
+  each post in contentful.posts
     h2: a(href=blogPath(post._url))= post.title
     div= formatDate(post.date)
