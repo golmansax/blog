@@ -9,9 +9,9 @@
   },
   "dependencies": {
     "autoprefixer-stylus": "0.9.x",
-    "axis": "0.6.x",
     "babel-core": "^6.18.2",
     "babel-eslint": "^7.1.0",
+    "babel-polyfill": "^6.16.0",
     "babel-preset-latest": "^6.16.0",
     "babel-preset-react": "^6.16.0",
     "coffee-script": "1.x",
@@ -25,13 +25,12 @@
     "jstransformer-marked": "1.x",
     "marked": "0.3.x",
     "moment": "^2.16.0",
+    "node-sass": "^3.13.0",
     "pug-lint": "^2.3.0",
     "pug-lint-config-clock": "^2.0.0",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
     "roots": "^5.0.0",
-    "roots-contentful": "0.0.9",
-    "rupture": "0.6.x",
-    "stylus": "0.54.x"
+    "roots-contentful": "0.0.9"
   }
 }
