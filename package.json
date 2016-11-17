@@ -21,6 +21,7 @@
     "eslint": "^3.10.2",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-config-golmansax": "0.0.21",
+    "foundation-sites": "^6.2.4",
     "jade": "1.x",
     "jstransformer-marked": "1.x",
     "marked": "0.3.x",
