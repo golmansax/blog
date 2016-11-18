@@ -2,11 +2,11 @@
   "name": "blog",
   "description": "My blog",
   "scripts": {
-    "build": "roots compile",
+    "build-views": "roots compile",
     "lint-js": "eslint .",
     "lint-pug": "pug-lint .",
-    "start": "nodemon --watch ./lib --exec 'roots watch'",
-    "start-webpack": "nodemon --watch ./lib --exec 'webpack'"
+    "watch-views": "nodemon --watch ./lib --exec 'roots watch'",
+    "watch-assets": "nodemon --watch ./lib --exec 'webpack'"
   },
   "dependencies": {
     "autoprefixer": "^6.5.3",
