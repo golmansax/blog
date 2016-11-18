@@ -43,6 +43,7 @@
     "pug-lint-config-clock": "^2.0.0",
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
+    "react-markdown": "^2.4.2",
     "resolve-url-loader": "^1.6.0",
     "roots": "^5.0.0",
     "roots-contentful": "0.0.9",

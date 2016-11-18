@@ -47,9 +47,14 @@
 
 $gsax-green: #198565;
 
-$global-font-size: 100%;
-$global-width: rem-calc(1200);
+$global-font-size: 125%;
 $global-lineheight: 1.5;
+$global-rhythm: rem-calc($global-lineheight * 20);
+@function vr($amount) {
+  @return rem-calc($global-rhythm * $amount);
+}
+
+$global-width: rem-calc(1200);
 $foundation-palette: (
   primary: $gsax-green, // #2199e8,
   secondary: #777,
@@ -61,25 +66,21 @@ $super-light-gray: #efefef; // #e6e6e6;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
+$super-dark-gray: #444;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $super-light-gray; // $white;
-$body-font-color: $black;
-$body-font-family: 'Noto Serif', serif; // 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-color: $super-dark-gray; // $black;
+$body-font-family: 'Noto Sans', serif; // 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
-$global-margin: 1rem;
-$global-padding: 1rem;
+$global-margin: vr(1); // 1rem;
+$global-padding: vr(1); // 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
 $global-radius: 0;
 $global-text-direction: ltr;
 $global-flexbox: false;
 $print-transparent-backgrounds: true;
-
-$global-rhythm: rem-calc($global-lineheight * 16);
-@function vr($amount) {
-  @return rem-calc($global-rhythm * $amount);
-}
 
 @include add-foundation-colors;
 
@@ -111,7 +112,7 @@ $block-grid-max: 8;
 // ------------------
 
 $header-font-family: 'Noto Sans', sans-serif; // $body-font-family;
-$header-font-weight: $global-weight-normal;
+$header-font-weight: $global-weight-bold; // $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
 $header-sizes: (
