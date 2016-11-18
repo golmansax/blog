@@ -2,6 +2,7 @@
   "name": "blog",
   "description": "My blog",
   "scripts": {
+    "build-assets": "webpack -p",
     "build-views": "roots compile",
     "lint-js": "eslint .",
     "lint-pug": "pug-lint .",

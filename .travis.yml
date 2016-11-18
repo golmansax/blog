@@ -19,7 +19,8 @@ install:
   - npm install
 
 before_script:
-  - npm run build
+  - npm run build-assets
+  - npm run build-views
 script:
   - npm run lint-js
   - npm run lint-pug
