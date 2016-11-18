@@ -24,6 +24,7 @@ before_script:
 script:
   - npm run lint-js
   - npm run lint-pug
+  - npm run lint-scss
 
 after_success:
   - "./lib/scripts/deploy_gh_pages.sh"

@@ -5,7 +5,8 @@
     "build-assets": "webpack -p",
     "build-views": "roots compile",
     "lint-js": "eslint .",
-    "lint-pug": "pug-lint .",
+    "lint-pug": "pug-lint views/",
+    "lint-scss": "sass-lint assets/",
     "watch-views": "nodemon --watch ./lib --exec 'roots watch'",
     "watch-assets": "nodemon --watch ./lib/config --exec 'webpack -w'"
   },
@@ -47,6 +48,7 @@
     "resolve-url-loader": "^1.6.0",
     "roots": "^5.0.0",
     "roots-contentful": "0.0.9",
+    "sass-lint": "^1.10.2",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
