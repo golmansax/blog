@@ -3,7 +3,12 @@
   margin-bottom: vr(1);
   padding: vr(1);
   border-radius: $global-radius;
-  color: inherit;
   display: block;
   text-decoration: inherit;
+
+  &,
+  &:hover,
+  &:focus {
+    color: inherit;
+  }
 }

@@ -7,13 +7,24 @@
 @include foundation-typography;
 @include foundation-forms;
 @include foundation-button;
+@include foundation-label;
 
 a {
   text-decoration: underline;
 }
 
+h1 {
+  line-height: (1.5 * $global-rhythm / map-get(map-get($header-sizes, 'medium'), 'h1'));
+}
+
+h3 {
+  line-height: ($global-rhythm / map-get(map-get($header-sizes, 'medium'), 'h3'));
+}
+
 @import 'components/Footer';
+@import 'components/Markdown';
 @import 'components/Navbar';
 @import 'components/PostCard';
 
 @import 'views/PageLayout';
+@import 'views/PostPage';

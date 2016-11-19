@@ -49,7 +49,7 @@ $gsax-green: #198565;
 
 $global-font-size: 125%;
 $global-lineheight: 1.5;
-$global-rhythm: rem-calc($global-lineheight * 20);
+$global-rhythm: $global-lineheight * 20;
 @function vr($amount) {
   @return rem-calc($global-rhythm * $amount);
 }
@@ -66,7 +66,7 @@ $super-light-gray: #efefef; // #e6e6e6;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$super-dark-gray: #444;
+$super-dark-gray: #666;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
@@ -125,22 +125,22 @@ $header-sizes: (
     'h6': 16,
   ),
   medium: (
-    'h1': 48,
-    'h2': 40,
-    'h3': 31,
-    'h4': 25,
+    'h1': 20 * 1.25 * 1.25 * 1.25,
+    'h2': 20 * 1.25 * 1.25,
+    'h3': 20 * 1.25,
+    'h4': 20,
     'h5': 20,
     'h6': 16,
   ),
 );
-$header-color: inherit;
+$header-color: $black; // inherit;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
 $paragraph-lineheight: 1.6;
-$paragraph-margin-bottom: 1rem;
+$paragraph-margin-bottom: vr(1); // 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;
 $code-font-family: $font-family-monospace;
