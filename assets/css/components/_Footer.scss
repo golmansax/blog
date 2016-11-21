@@ -1,3 +1,10 @@
 .Footer {
   padding: vr(1) 0;
+
+  &-portrait {
+    background-image: url('../../img/portrait-20161120.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    padding-bottom: 100%;
+  }
 }
