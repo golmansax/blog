@@ -1,6 +1,19 @@
 .Navbar {
-  a {
+  $navbar-height: vr(1);
+
+  font-weight: $global-weight-bold;
+
+  &-icon {
+    background-image: url('../../img/navbar-icon-colored.png');
+    background-size: cover;
+    height: $navbar-height;
+    width: $navbar-height;
+    margin-right: vr(0.25);
+  }
+
+  &-link {
     display: inline-block;
-    padding: vr(0.5);
+    text-decoration: inherit;
+    padding: vr(0.25) 0;
   }
 }
