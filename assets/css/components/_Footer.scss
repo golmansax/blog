@@ -7,4 +7,14 @@
     border-radius: 50%;
     padding-bottom: 100%;
   }
+
+  &-portrait-container {
+    padding: vr(0.5) 25%;
+  }
+
+  &-about-container {
+    @include breakpoint(small only) {
+      text-align: center;
+    }
+  }
 }

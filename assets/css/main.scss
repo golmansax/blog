@@ -9,6 +9,7 @@
 @include foundation-button;
 @include foundation-label;
 @include foundation-float-classes;
+@include foundation-visibility-classes;
 
 body {
   @include breakpoint(medium up) {
