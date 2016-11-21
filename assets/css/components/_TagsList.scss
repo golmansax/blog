@@ -1,0 +1,14 @@
+.TagsList {
+  &-tag {
+    font-style: italic;
+    margin-left: vr(0.25);
+
+    &::after {
+      content: ',';
+    }
+
+    &:last-child::after {
+      content: none;
+    }
+  }
+}
