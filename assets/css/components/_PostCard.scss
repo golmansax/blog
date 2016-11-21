@@ -1,10 +1,18 @@
 .PostCard {
   background-color: $white;
   margin-bottom: vr(1);
-  padding: vr(1);
   border-radius: $global-radius;
   display: block;
   text-decoration: inherit;
+
+  &-image {
+    padding-bottom: 52.356%; // 1.91 to 1
+    background-size: cover;
+  }
+
+  &-container {
+    padding: vr(1);
+  }
 
   &-content {
     margin-bottom: vr(0.5);
