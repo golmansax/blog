@@ -10,6 +10,12 @@
 @include foundation-label;
 @include foundation-float-classes;
 
+body {
+  @include breakpoint(medium up) {
+    font-size: 125%;
+  }
+}
+
 a {
   text-decoration: underline;
 }
