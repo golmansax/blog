@@ -6,9 +6,17 @@
   display: block;
   text-decoration: inherit;
 
-  &,
-  &:hover,
-  &:focus {
-    color: inherit;
+  &-content {
+    margin-bottom: vr(0.5);
+
+    &,
+    &:hover,
+    &:focus {
+      color: $body-font-color;
+    }
+  }
+
+  &-more-link {
+    text-decoration: underline;
   }
 }
