@@ -48,7 +48,7 @@
 $gsax-green: #198565;
 
 $global-font-size: 100%;
-$global-lineheight: 1.5;
+$global-lineheight: 1.6;
 $global-rhythm: $global-lineheight * 20;
 @function vr($amount) {
   @return rem-calc($global-rhythm * $amount);
@@ -102,8 +102,8 @@ $breakpoint-classes: (small medium large);
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
-  small: 20px,
-  medium: 30px,
+  small: vr(1),
+  medium: vr(1),
 );
 $grid-column-align-edge: true;
 $block-grid-max: 8;
@@ -139,7 +139,7 @@ $header-margin-bottom: 0.5rem;
 $header-text-rendering: optimizeLegibility;
 $small-font-size: 80%;
 $header-small-font-color: $medium-gray;
-$paragraph-lineheight: 1.6;
+$paragraph-lineheight: inherit; // 1.6;
 $paragraph-margin-bottom: vr(1); // 1rem;
 $paragraph-text-rendering: optimizeLegibility;
 $code-color: $black;

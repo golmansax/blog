@@ -1,6 +1,8 @@
 .Navbar {
   $navbar-height: vr(1);
+  $navbar-icon-fudge: 5px;
 
+  font-size: rem-calc(20);
   font-weight: $global-weight-bold;
 
   &-icon {
@@ -8,7 +10,8 @@
     background-size: cover;
     height: $navbar-height;
     width: $navbar-height;
-    margin-right: vr(0.25);
+    margin-right: $navbar-icon-fudge;
+    margin-left: -$navbar-icon-fudge;
   }
 
   &-link {
