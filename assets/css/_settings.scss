@@ -48,7 +48,7 @@
 $gsax-green: #198565;
 
 $global-font-size: 100%;
-$global-lineheight: 1.6;
+$global-lineheight: 1.65;
 $global-rhythm: $global-lineheight * 20;
 @function vr($amount) {
   @return rem-calc($global-rhythm * $amount);
