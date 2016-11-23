@@ -1,3 +1,5 @@
+@import '~react-photoswipe/lib/photoswipe.css';
+
 @import './settings';
 @import '~foundation-sites/scss/foundation';
 
@@ -10,6 +12,7 @@
 @include foundation-label;
 @include foundation-float-classes;
 @include foundation-visibility-classes;
+
 
 body {
   @include breakpoint(medium up) {
