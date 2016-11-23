@@ -46,6 +46,7 @@
     "react": "^15.4.0",
     "react-dom": "^15.4.0",
     "react-markdown": "^2.4.2",
+    "react-photoswipe": "^1.2.0",
     "resolve-url-loader": "^1.6.0",
     "roots": "^5.0.0",
     "roots-contentful": "0.0.9",
@@ -58,6 +59,9 @@
     "webpack-manifest-plugin": "^1.1.0"
   },
   "devDependencies": {
+    "contentful": "^3.7.1",
+    "jsonfile": "^2.4.0",
+    "node-fetch": "^1.6.3",
     "nodemon": "^1.11.0"
   }
 }
