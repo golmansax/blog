@@ -29,6 +29,10 @@ h3 {
   line-height: ($global-rhythm / map-get(map-get($header-sizes, 'medium'), 'h3'));
 }
 
+small {
+  line-height: $global-lineheight * 100% / $small-font-size;
+}
+
 @import 'components/Footer';
 @import 'components/Markdown';
 @import 'components/Navbar';
