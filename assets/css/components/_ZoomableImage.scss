@@ -1,0 +1,14 @@
+.ZoomableImage {
+  display: block;
+
+  &-container {
+    display: block;
+  }
+
+  &-caption {
+    display: block;
+    text-align: center;
+    color: $dark-gray;
+    margin: vr(0.5) 0;
+  }
+}
