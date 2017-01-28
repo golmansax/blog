@@ -35,7 +35,7 @@
     "eslint-plugin-react": "^6.7.1",
     "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
-    "foundation-sites": "^6.2.4",
+    "foundation-sites": "~6.2.4",
     "image-webpack-loader": "^3.0.0",
     "jade": "1.x",
     "json-loader": "^0.5.4",
