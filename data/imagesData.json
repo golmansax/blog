@@ -2,17 +2,6 @@
   {
     "width": 1100,
     "height": 825,
-    "url": "//images.contentful.com/ei622yk3qctu/lifVLFtlcWYm0CEye2kYe/aea1d52f7bde63e3d02699fdb9639ed7/screencapture-localhost-3000-1479512633680.png"
-  },
-  {
-    "width": 1100,
-    "height": 550,
-    "url": "//images.contentful.com/ei622yk3qctu/2aHQ7C70LeOW8eQcgC0QWy/64ebaf6078ac212aa23b0854e5192ec9/screencapture-file-Users-holman-src-my-site-in-express-public-index-html-1479512995625.png",
-    "description": "Getting better"
-  },
-  {
-    "width": 1100,
-    "height": 825,
     "url": "//images.contentful.com/ei622yk3qctu/43CXLyBdpuOgsSOAq00uUS/c2bfdac8a4405abe5f92ffa61635c480/screencapture-golmansax-1479507924240.png",
     "description": "Who's that handsome man in the picture?"
   },
@@ -25,8 +14,18 @@
   {
     "width": 1100,
     "height": 825,
+    "url": "//images.contentful.com/ei622yk3qctu/lifVLFtlcWYm0CEye2kYe/aea1d52f7bde63e3d02699fdb9639ed7/screencapture-localhost-3000-1479512633680.png"
+  },
+  {
+    "width": 1100,
+    "height": 825,
     "url": "//images.contentful.com/ei622yk3qctu/4vRkydd73OqmuS8MqeIoWG/68e0de922b7dad057759aff848341171/screencapture-localhost-3000-1479511777067.png",
     "description": "Let there be color!"
+  },
+  {
+    "width": 430,
+    "height": 253,
+    "url": "//images.contentful.com/ei622yk3qctu/1IuFTlDXEkiYM06YYUSaMy/c685e87da37f13752ddddbf1b362969b/simply_ask_question.jpg"
   },
   {
     "width": 1100,
@@ -39,5 +38,17 @@
     "height": 630,
     "url": "//images.contentful.com/ei622yk3qctu/44FJYtNUWIUQOKy0Qsqqwa/3cfb92f6e61c1255fc9a6b4c5ed0de32/screencapture-localhost-1111-test-html-1479840452964.png",
     "description": "A lot can change in four years"
+  },
+  {
+    "width": 1100,
+    "height": 550,
+    "url": "//images.contentful.com/ei622yk3qctu/2aHQ7C70LeOW8eQcgC0QWy/64ebaf6078ac212aa23b0854e5192ec9/screencapture-file-Users-holman-src-my-site-in-express-public-index-html-1479512995625.png",
+    "description": "Getting better"
+  },
+  {
+    "width": 500,
+    "height": 365,
+    "url": "//images.contentful.com/ei622yk3qctu/42rlSvFECQqIUWaMg0MYya/d722bd408d8206fa954b601633bce2a5/bash_script_works.jpg",
+    "description": "Don't think I've experienced this yet..."
   }
 ]
