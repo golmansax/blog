@@ -4,6 +4,7 @@
   "scripts": {
     "build-assets": "webpack -p",
     "build-views": "roots compile",
+    "deploy": "./lib/scripts/deploy_gh_pages.sh",
     "lint-js": "eslint .",
     "lint-pug": "pug-lint views/",
     "lint-scss": "sass-lint assets/",

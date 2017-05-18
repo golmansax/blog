@@ -28,4 +28,4 @@ script:
   - npm run lint-scss
 
 after_success:
-  - "./lib/scripts/deploy_gh_pages.sh"
+  - npm run deploy
