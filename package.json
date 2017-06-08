@@ -4,11 +4,11 @@
   "scripts": {
     "build-assets": "webpack -p",
     "build-views": "roots compile",
-    "deploy": "./lib/scripts/deploy_gh_pages.sh",
+    "deploy": "./scripts/deploy_gh_pages.sh",
     "lint-js": "eslint .",
     "lint-pug": "pug-lint views/",
     "lint-scss": "sass-lint assets/",
-    "update-images": "./lib/scripts/fetch_contentful_images_data.sh",
+    "update-images": "./scripts/fetch_contentful_images_data.sh",
     "watch-views": "nodemon --watch ./lib --exec 'roots watch'",
     "watch-assets": "nodemon --watch ./lib/config --exec 'webpack -w'"
   },
