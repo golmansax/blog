@@ -1,9 +1,9 @@
 [
   {
     "width": 1100,
-    "height": 400,
-    "url": "//images.contentful.com/ei622yk3qctu/3n94tynXNmiKCaCAYkgeCc/8d15dbca98504d82e65965f0d6d48d92/screencapture-localhost-8080-1479571407123.png",
-    "description": "As basic as it gets"
+    "height": 550,
+    "url": "//images.contentful.com/ei622yk3qctu/2aHQ7C70LeOW8eQcgC0QWy/64ebaf6078ac212aa23b0854e5192ec9/screencapture-file-Users-holman-src-my-site-in-express-public-index-html-1479512995625.png",
+    "description": "Getting better"
   },
   {
     "width": 1044,
@@ -13,9 +13,9 @@
   },
   {
     "width": 1100,
-    "height": 550,
-    "url": "//images.contentful.com/ei622yk3qctu/2aHQ7C70LeOW8eQcgC0QWy/64ebaf6078ac212aa23b0854e5192ec9/screencapture-file-Users-holman-src-my-site-in-express-public-index-html-1479512995625.png",
-    "description": "Getting better"
+    "height": 400,
+    "url": "//images.contentful.com/ei622yk3qctu/3n94tynXNmiKCaCAYkgeCc/8d15dbca98504d82e65965f0d6d48d92/screencapture-localhost-8080-1479571407123.png",
+    "description": "As basic as it gets"
   },
   {
     "width": 2700,
@@ -26,8 +26,8 @@
   {
     "width": 1200,
     "height": 630,
-    "url": "//images.contentful.com/ei622yk3qctu/2ci4zlc36Yk66qk4iqsM8g/6d6061daa0cea4d61f453914c43be5da/obama_fistbump.jpg",
-    "description": "The sign of a good relationship"
+    "url": "//images.contentful.com/ei622yk3qctu/4he65nxJeoSQAqWeuQwOOo/0a50aafa3a122f590274402ae454131e/rachael-crowe-79516.jpg",
+    "description": "The power of a timer"
   },
   {
     "width": 1100,
@@ -41,16 +41,16 @@
     "url": "//images.contentful.com/ei622yk3qctu/lifVLFtlcWYm0CEye2kYe/aea1d52f7bde63e3d02699fdb9639ed7/screencapture-localhost-3000-1479512633680.png"
   },
   {
+    "width": 1200,
+    "height": 630,
+    "url": "//images.contentful.com/ei622yk3qctu/2ci4zlc36Yk66qk4iqsM8g/6d6061daa0cea4d61f453914c43be5da/obama_fistbump.jpg",
+    "description": "The sign of a good relationship"
+  },
+  {
     "width": 1182,
     "height": 776,
     "url": "//images.contentful.com/ei622yk3qctu/2jRsZr3YR64WOUEg0G62YY/30ff1b29ae72ea052d21fdef52578501/toggl_daily.png",
-    "description": "My Toggl screen, where I log the project, location, and time for each work session"
-  },
-  {
-    "width": 1200,
-    "height": 630,
-    "url": "//images.contentful.com/ei622yk3qctu/44FJYtNUWIUQOKy0Qsqqwa/3cfb92f6e61c1255fc9a6b4c5ed0de32/screencapture-localhost-1111-test-html-1479840452964.png",
-    "description": "A lot can change in four years"
+    "description": "My daily Toggl screen, where I log the project, location, and time for each work session"
   },
   {
     "width": 1100,
@@ -63,5 +63,11 @@
     "height": 825,
     "url": "//images.contentful.com/ei622yk3qctu/43CXLyBdpuOgsSOAq00uUS/c2bfdac8a4405abe5f92ffa61635c480/screencapture-golmansax-1479507924240.png",
     "description": "Who's that handsome man in the picture?"
+  },
+  {
+    "width": 1200,
+    "height": 630,
+    "url": "//images.contentful.com/ei622yk3qctu/44FJYtNUWIUQOKy0Qsqqwa/3cfb92f6e61c1255fc9a6b4c5ed0de32/screencapture-localhost-1111-test-html-1479840452964.png",
+    "description": "A lot can change in four years"
   }
 ]
