@@ -12,12 +12,12 @@ env:
     - secure: "R3ZFynqpmNB9VKHQ/tTLSr8nvk3iCBi2FFycKPL04d8VAy2hiXIL8DVCXHM3gFRBFqm5LlUAxJkb5UcApR+p1wlQY5+XZczjipg8S+BbCG9RCdNOHJZgT9Mg4DzgsKQOk7cwXNNDzlUHkoUue/dEogfbhbjVuELW3EdEC8M0wEiYWuoYQYUUgHlvpxPkxL1lJ4JgknRRlquK74WuetuYWi807buS4nw7yFjOkfg1h6s2guWUIf0hz/tt8MEu9TKN/UIdGghlibWwhdtzzEswp72bIrM/P/Ijy0GaD6+EBIcKXwluFKNT/13h8YUiVOxlYVvY+RSQKMSR1Mkz8dZog1yk0Gf15lek2oAHmaSFzNT5T9mtjnaQLxDnIoenl5t2se8u0big09dApjgCOvDZhCg+f17f2DTddfXt3LW9Lczpx6XpS0he41wtLQViobj9lR4HVcAlJ6az3RFOd/X7F1hY3IIsjcOmBngkg1XujiZp8VcYdN+fUGJYxTBoguw9qg0jOHzYxPO9x9Q78C6+x5dI7JsES5o22iKTCP0S66bcJzrdE/p6F6FWb6xNOINY3RIa5ZdWPJ9R6Yh0OrwPiJ2Izfy5mQ1s+eUc83mkscbQs/TfJtC9sV7lFH8AHyed5EfhSsKDH2fbGEGUIeJfZ8QFrqwD0XBFkRgUmceBGxI="
 
 cache:
+  yarn: true
   directories:
     - node_modules # NPM packages
 
 install:
-  - npm prune
-  - npm install
+  - yarn install --production=false
 
 before_script:
   - npm run build-assets
