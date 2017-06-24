@@ -1,5 +1,9 @@
 @import '~react-photoswipe/lib/photoswipe.css';
 
+.pswp__caption__center {
+  text-align: center;
+}
+
 @import './settings';
 @import '~foundation-sites/scss/foundation';
 
