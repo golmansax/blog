@@ -1,6 +1,7 @@
 {
   "name": "blog",
   "description": "My blog",
+  "private": true,
   "scripts": {
     "build-assets": "webpack -p",
     "build-views": "roots compile",
@@ -35,7 +36,7 @@
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-mocha": "^4.7.0",
     "eslint-plugin-react": "^6.7.1",
-    "extract-text-webpack-plugin": "^1.0.1",
+    "extract-text-webpack-plugin": "^2.0.0",
     "file-loader": "^0.9.0",
     "foundation-sites": "~6.2.4",
     "image-webpack-loader": "^3.0.0",
@@ -60,8 +61,7 @@
     "style-loader": "^0.13.1",
     "transform-loader": "^0.2.3",
     "url-loader": "^0.5.7",
-    "webpack": "^1.13.3",
-    "webpack-fail-plugin": "^1.0.5",
+    "webpack": "^2.0.0",
     "webpack-manifest-plugin": "^1.1.0"
   },
   "devDependencies": {
