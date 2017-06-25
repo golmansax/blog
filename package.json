@@ -3,15 +3,15 @@
   "description": "My blog",
   "private": true,
   "scripts": {
-    "build-assets": "webpack -p",
-    "build-views": "roots compile",
+    "build:assets": "webpack -p",
+    "build:views": "roots compile",
     "deploy": "./scripts/deploy_gh_pages.sh",
-    "lint-js": "eslint .",
-    "lint-pug": "pug-lint views/",
-    "lint-scss": "sass-lint assets/",
+    "lint:js": "eslint .",
+    "lint:pug": "pug-lint views/",
+    "lint:scss": "sass-lint assets/",
     "update-images": "./scripts/fetch_contentful_images_data.sh",
-    "watch-views": "nodemon --watch ./lib --exec 'roots watch'",
-    "watch-assets": "nodemon --watch ./lib/config --exec 'webpack -w'"
+    "watch:views": "nodemon --watch ./lib --exec 'roots watch'",
+    "watch:assets": "nodemon --watch ./lib/config --exec 'webpack -w'"
   },
   "dependencies": {
     "autoprefixer": "^6.5.3",

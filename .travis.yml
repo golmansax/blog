@@ -20,12 +20,12 @@ install:
   - yarn install --production=false
 
 before_script:
-  - npm run build-assets
-  - npm run build-views
+  - npm run build:assets
+  - npm run build:views
 script:
-  - npm run lint-js
-  - npm run lint-pug
-  - npm run lint-scss
+  - npm run lint:js
+  - npm run lint:pug
+  - npm run lint:scss
 
 after_success:
   - npm run deploy
