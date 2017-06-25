@@ -4,7 +4,11 @@
 
   &-container {
     display: block;
-    margin: vr(2) 0;
+    margin: vr(2) auto;
+
+    @include breakpoint(small only) {
+      margin: vr(1.5) auto;
+    }
   }
 
   &-caption {

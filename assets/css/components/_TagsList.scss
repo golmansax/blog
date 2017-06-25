@@ -1,14 +1,12 @@
 .TagsList {
+  margin-top: vr(0.25);
+
   &-tag {
+    float: left;
     font-style: italic;
-    margin-left: vr(0.25);
-
-    &::after {
-      content: ',';
-    }
-
-    &:last-child::after {
-      content: none;
-    }
+    margin-right: vr(0.25);
+    margin-top: vr(0.25);
+    background-color: $light-gray;
+    padding: vr(.125) vr(.25);
   }
 }
