@@ -22,6 +22,7 @@ install:
 before_script:
   - npm run build:assets
   - npm run build:views
+  - npm run build:redirect_pages
 script:
   - npm run lint:js
   - npm run lint:pug
