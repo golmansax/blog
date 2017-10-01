@@ -10,6 +10,7 @@
     "lint:js": "eslint .",
     "lint:pug": "pug-lint views/",
     "lint:scss": "sass-lint assets/",
+    "start:webhook_listener": "nodemon --watch webhook_listener.js webhook_listener.js",
     "update-images": "./scripts/fetch_contentful_images_data.sh",
     "watch:views": "nodemon --watch ./lib --exec 'roots watch'",
     "watch:assets": "nodemon --watch ./lib/config --exec 'webpack -w'"
@@ -27,6 +28,7 @@
     "babel-register": "^6.18.0",
     "classnames": "^2.2.5",
     "coffee-script": "1.x",
+    "contentful-webhook-tunnel": "^1.5.4",
     "css-loader": "^0.26.0",
     "dotenv": "^2.0.0",
     "envify": "^3.4.1",
@@ -61,6 +63,7 @@
     "sass-lint": "^1.10.2",
     "sass-loader": "^4.0.2",
     "style-loader": "^0.13.1",
+    "touch": "^3.1.0",
     "transform-loader": "^0.2.3",
     "url-loader": "^0.5.7",
     "webpack": "^2.0.0",
