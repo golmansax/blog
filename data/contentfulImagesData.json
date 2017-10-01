@@ -1,20 +1,33 @@
 [
   {
-    "width": 1100,
-    "height": 825,
-    "url": "//images.contentful.com/ei622yk3qctu/51GWodE6OQScUkag0yw6mo/3dce31b1f41207448168d89c0277306b/screencapture-localhost-3000-1479586470699.png",
-    "description": "Oooh... pictures"
+    "width": 570,
+    "height": 362,
+    "url": "//images.contentful.com/ei622yk3qctu/3BSLYN0MDmEk0EkqEMa0mA/6fc82ff5fadec1a9a402bffded5d6d5b/imaginasia.jpg",
+    "description": "Japanese Woodblock Printing in the ImaginAsia Program"
+  },
+  {
+    "width": 1182,
+    "height": 776,
+    "url": "//images.contentful.com/ei622yk3qctu/2jRsZr3YR64WOUEg0G62YY/30ff1b29ae72ea052d21fdef52578501/toggl_daily.png",
+    "description": "My daily Toggl screen, where I log the project, location, and time for each work session"
+  },
+  {
+    "width": 620,
+    "height": 413,
+    "url": "//images.contentful.com/ei622yk3qctu/1KWkEnwAYo2MOK4E8iA40e/1704a2066d9917277030178958a24d63/IMG_2410.jpg",
+    "description": "The awesome co-working space that I work out of"
   },
   {
     "width": 1100,
     "height": 825,
-    "url": "//images.contentful.com/ei622yk3qctu/lifVLFtlcWYm0CEye2kYe/aea1d52f7bde63e3d02699fdb9639ed7/screencapture-localhost-3000-1479512633680.png"
+    "url": "//images.contentful.com/ei622yk3qctu/4vRkydd73OqmuS8MqeIoWG/68e0de922b7dad057759aff848341171/screencapture-localhost-3000-1479511777067.png",
+    "description": "Let there be color!"
   },
   {
-    "width": 1200,
-    "height": 630,
-    "url": "//images.contentful.com/ei622yk3qctu/2ci4zlc36Yk66qk4iqsM8g/6d6061daa0cea4d61f453914c43be5da/obama_fistbump.jpg",
-    "description": "The sign of a good relationship"
+    "width": 640,
+    "height": 433,
+    "url": "//images.contentful.com/ei622yk3qctu/3uRqXGvy2ISomsO8WcSMc6/c6b78c9f459f36ad03e5593132a1a98d/artistry.jpg",
+    "description": "The hipster cafe in Singapore I'm at right now"
   },
   {
     "width": 1100,
@@ -29,33 +42,21 @@
     "description": "A lot can change in four years"
   },
   {
-    "width": 1100,
-    "height": 550,
-    "url": "//images.contentful.com/ei622yk3qctu/2aHQ7C70LeOW8eQcgC0QWy/64ebaf6078ac212aa23b0854e5192ec9/screencapture-file-Users-holman-src-my-site-in-express-public-index-html-1479512995625.png",
-    "description": "Getting better"
+    "width": 348,
+    "height": 348,
+    "url": "//images.contentful.com/ei622yk3qctu/khpCkVldniywm8Ommi8us/b7369c3777a87fa42bdd258f147ec726/usps_line.jpg",
+    "description": "No more long post office lines!"
   },
   {
     "width": 1100,
-    "height": 400,
-    "url": "//images.contentful.com/ei622yk3qctu/3n94tynXNmiKCaCAYkgeCc/8d15dbca98504d82e65965f0d6d48d92/screencapture-localhost-8080-1479571407123.png",
-    "description": "As basic as it gets"
+    "height": 825,
+    "url": "//images.contentful.com/ei622yk3qctu/51GWodE6OQScUkag0yw6mo/3dce31b1f41207448168d89c0277306b/screencapture-localhost-3000-1479586470699.png",
+    "description": "Oooh... pictures"
   },
   {
-    "width": 1488,
-    "height": 780,
-    "url": "//images.contentful.com/ei622yk3qctu/19Xb1lct5E2a4eQ4GEw6ci/296bce5bd1d24d57fb79fd92c2c3526b/dayne-topkin-101955.jpg"
-  },
-  {
-    "width": 570,
-    "height": 362,
-    "url": "//images.contentful.com/ei622yk3qctu/3BSLYN0MDmEk0EkqEMa0mA/6fc82ff5fadec1a9a402bffded5d6d5b/imaginasia.jpg",
-    "description": "Japanese Woodblock Printing"
-  },
-  {
-    "width": 2700,
-    "height": 550,
-    "url": "//images.contentful.com/ei622yk3qctu/55uOI4Q3xeG4cGQUi8W6us/57e88c0cf74064ade400a027875d5b57/communication-tools.jpg",
-    "description": "Solid communication tools"
+    "width": 1100,
+    "height": 825,
+    "url": "//images.contentful.com/ei622yk3qctu/lifVLFtlcWYm0CEye2kYe/aea1d52f7bde63e3d02699fdb9639ed7/screencapture-localhost-3000-1479512633680.png"
   },
   {
     "width": 900,
@@ -66,25 +67,48 @@
   {
     "width": 1200,
     "height": 630,
+    "url": "//images.contentful.com/ei622yk3qctu/5aXPyKzDU4KUesQEkkKOke/9bc90aba564c9924d206593caf0f1619/christin-hume-311288.jpg",
+    "description": "Working outside: a perk of freelancing"
+  },
+  {
+    "width": 1200,
+    "height": 630,
     "url": "//images.contentful.com/ei622yk3qctu/4he65nxJeoSQAqWeuQwOOo/0a50aafa3a122f590274402ae454131e/rachael-crowe-79516.jpg",
     "description": "Timers can be powerful"
   },
   {
-    "width": 1182,
-    "height": 776,
-    "url": "//images.contentful.com/ei622yk3qctu/2jRsZr3YR64WOUEg0G62YY/30ff1b29ae72ea052d21fdef52578501/toggl_daily.png",
-    "description": "My daily Toggl screen, where I log the project, location, and time for each work session"
+    "width": 1200,
+    "height": 630,
+    "url": "//images.contentful.com/ei622yk3qctu/2ci4zlc36Yk66qk4iqsM8g/6d6061daa0cea4d61f453914c43be5da/obama_fistbump.jpg",
+    "description": "The sign of a good relationship"
+  },
+  {
+    "width": 1488,
+    "height": 780,
+    "url": "//images.contentful.com/ei622yk3qctu/19Xb1lct5E2a4eQ4GEw6ci/296bce5bd1d24d57fb79fd92c2c3526b/dayne-topkin-101955.jpg"
+  },
+  {
+    "width": 2700,
+    "height": 550,
+    "url": "//images.contentful.com/ei622yk3qctu/55uOI4Q3xeG4cGQUi8W6us/57e88c0cf74064ade400a027875d5b57/communication-tools.jpg",
+    "description": "Solid communication tools"
   },
   {
     "width": 1100,
-    "height": 825,
-    "url": "//images.contentful.com/ei622yk3qctu/4vRkydd73OqmuS8MqeIoWG/68e0de922b7dad057759aff848341171/screencapture-localhost-3000-1479511777067.png",
-    "description": "Let there be color!"
+    "height": 550,
+    "url": "//images.contentful.com/ei622yk3qctu/2aHQ7C70LeOW8eQcgC0QWy/64ebaf6078ac212aa23b0854e5192ec9/screencapture-file-Users-holman-src-my-site-in-express-public-index-html-1479512995625.png",
+    "description": "Getting better"
   },
   {
     "width": 1044,
     "height": 516,
     "url": "//images.contentful.com/ei622yk3qctu/9c1hha2D60OmWoGuq4caw/c00ed657b1eb44cd314230d9a5e83bdd/toggl_summary.png",
     "description": "My weekly working hours over the first 6 months of time tracking"
+  },
+  {
+    "width": 1100,
+    "height": 400,
+    "url": "//images.contentful.com/ei622yk3qctu/3n94tynXNmiKCaCAYkgeCc/8d15dbca98504d82e65965f0d6d48d92/screencapture-localhost-8080-1479571407123.png",
+    "description": "As basic as it gets"
   }
 ]
