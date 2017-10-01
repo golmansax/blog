@@ -12,7 +12,7 @@
     "lint:scss": "sass-lint assets/",
     "start:webhook_listener": "nodemon --watch webhook_listener.js webhook_listener.js",
     "update-images": "./scripts/fetch_contentful_images_data.sh",
-    "watch:views": "nodemon --watch ./lib --exec 'roots watch'",
+    "watch:views": "nodemon --watch ./lib --watch ./data --exec 'roots watch'",
     "watch:assets": "nodemon --watch ./lib/config --exec 'webpack -w'"
   },
   "dependencies": {
