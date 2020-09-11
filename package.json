@@ -76,7 +76,7 @@
   "devDependencies": {
     "contentful": "^3.7.1",
     "jsonfile": "^2.4.0",
-    "node-fetch": "^1.6.3",
+    "node-fetch": "^2.6.1",
     "nodemon": "^1.11.0"
   }
 }
