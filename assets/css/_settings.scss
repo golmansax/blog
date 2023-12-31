@@ -45,7 +45,9 @@
 // 1. Global
 // ---------
 
-$gsax-green: #198565;
+$gsax-prussian: #001C3C;
+$gsax-ruby: #EA0029;
+$gsax-titanium: #F2F2F2;
 
 $global-font-size: 100%;
 $global-lineheight: 1.65;
@@ -56,13 +58,13 @@ $global-rhythm: $global-lineheight * 20;
 
 $global-width: rem-calc(1200);
 $foundation-palette: (
-  primary: $gsax-green, // #2199e8,
-  secondary: #777,
+  primary: $gsax-prussian, // #2199e8,
+  secondary: $gsax-ruby, // #777,
   success: #3adb76,
   warning: #ffae00,
   alert: #ec5840,
 );
-$super-light-gray: #efefef; // #e6e6e6;
+$super-light-gray: $gsax-titanium; // #e6e6e6;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;

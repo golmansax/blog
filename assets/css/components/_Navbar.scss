@@ -1,17 +1,15 @@
 .Navbar {
   $navbar-height: vr(1);
-  $navbar-icon-fudge: 5px;
 
   font-size: rem-calc(20);
   font-weight: $global-weight-bold;
 
   &-icon {
-    background-image: url('../../img/navbar-icon-colored.png');
+    background-image: url('../../img/navbar-logo.png');
     background-size: cover;
     height: $navbar-height;
     width: $navbar-height;
-    margin-right: $navbar-icon-fudge;
-    margin-left: -$navbar-icon-fudge;
+    margin-right: vr(0.5);
   }
 
   &-link {

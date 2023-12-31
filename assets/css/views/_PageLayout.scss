@@ -2,3 +2,8 @@
   background-color: $super-light-gray;
   padding: vr(1) 0;
 }
+
+.PageLayout-favicon {
+  // Do this just so that the favicon image goes through webpack
+  background-image: url('../../img/favicon.png');
+}
