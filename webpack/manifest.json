@@ -1,9 +1,10 @@
 {
-  "assets/img/navbar-icon-colored.png": "assets/img/navbar-icon-colored.eae97ac5176fe901a28b81d75fc5f1f9.png",
+  "assets/img/favicon.png": "assets/img/favicon.6103f02bc68eeddbe7b9fda13cb066ea.png",
+  "assets/img/navbar-logo.png": "assets/img/navbar-logo.c512a764d56d7d58fe95b7d744b8063a.png",
   "assets/img/portrait_2018-06-13.jpg": "assets/img/portrait_2018-06-13.b989c9d066ba43324cdb0dcbe34c3d17.jpg",
   "main.css": "main.c013fbeccccce276542d.css",
   "main.js": "main.c013fbeccccce276542d.js",
-  "node_modules/react-photoswipe/lib/default-skin.png": "node_modules/react-photoswipe/lib/default-skin.e3f799c6dec9af194c86decdf7392405.png",
-  "node_modules/react-photoswipe/lib/default-skin.svg": "node_modules/react-photoswipe/lib/default-skin.3ba3b1beb0f9bc74d63ecb7e084dfedc.svg",
-  "node_modules/react-photoswipe/lib/preloader.gif": "node_modules/react-photoswipe/lib/preloader.e34aafbb485a96eaf2a789b2bf3af6fe.gif"
+  "node_modules/react-photoswipe/lib/default-skin.png": "node_modules/react-photoswipe/lib/default-skin.049bbdd74ed573f09e181324116344e6.png",
+  "node_modules/react-photoswipe/lib/default-skin.svg": "node_modules/react-photoswipe/lib/default-skin.adab6523a54e9720741c3abcadd69560.svg",
+  "node_modules/react-photoswipe/lib/preloader.gif": "node_modules/react-photoswipe/lib/preloader.c3f292f7682e7258323398b5405b4bad.gif"
 }
