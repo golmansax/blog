@@ -8,6 +8,12 @@ jobs:
 
     env:
       NODE_ENV: production
+      AMAZON_AFFILIATE_ID: ${{ secrets.AMAZON_AFFILIATE_ID }}
+      CONTENTFUL_SPACE_ID: ${{ secrets.CONTENTFUL_SPACE_ID }}
+      CONTENTFUL_DELIVERY_API_KEY: ${{ secrets.CONTENTFUL_DELIVERY_API_KEY }}
+      CONTENTFUL_MANAGEMENT_ACCESS_TOKEN: ${{ secrets.CONTENTFUL_MANAGEMENT_ACCESS_TOKEN }}
+      NGROK_ACCESS_TOKEN: ${{ secrets.NGROK_ACCESS_TOKEN }}
+      HEAP_ANALYTICS_APP_ID: ${{ secrets.HEAP_ANALYTICS_APP_ID }}
 
     steps:
       - uses: actions/checkout@v2
