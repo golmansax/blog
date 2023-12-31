@@ -28,6 +28,11 @@ jobs:
       - run: yarn install --production=false
       - run: yarn build:assets
       - run: yarn build:views
+      - run: yarn build:redirect_pages
+
+      - run: yarn lint:js
+      - run: yarn lint:pug
+      - run: yarn lint:scss
 
       - name: Deploy with gh-pages
         if: github.ref == 'refs/heads/master'
