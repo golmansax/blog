@@ -73,7 +73,7 @@ $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
 $body-font-color: $super-dark-gray; // $black;
-$body-font-family: 'Noto Sans', serif; // 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: 'Outfit', serif; // 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: vr(1); // 1rem;
 $global-padding: vr(1); // 1rem;
@@ -113,7 +113,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: 'Noto Sans', sans-serif; // $body-font-family;
+$header-font-family: 'Outfit', sans-serif; // $body-font-family;
 $header-font-weight: $global-weight-bold; // $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
